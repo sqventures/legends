@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<script type="text/javascript" src="js/wearml_engine-min.js"></script>
+</head>
+<style>
+     .overlay{
+          --overlay_show_text:true;
+          --overlay_show_number:false;
+          --overlay_show_dot:true;
+          --overlay_persists:true;
+          --overlay_anchor_hv:"100,50";
+     } \
+</style> 
+<body>
+<form >
+   First name: <input type="text" name="fname" data-wml-speech-command="Enter First Name" data-wml-style=".overlay"/>
+</form>
+</body>
